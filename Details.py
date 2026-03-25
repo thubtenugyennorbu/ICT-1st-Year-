@@ -1,1 +1,0 @@
-Print("Thubten Ugyen Norbu__ ThubZz...")

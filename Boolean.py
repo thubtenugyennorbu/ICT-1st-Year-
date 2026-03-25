@@ -4,3 +4,5 @@ print(type(a))  #Data type of a is bool
 print(type(b))  #Data type of a is bool
 a = bool("") #False
 b = bool("Hello")  #True
+print(a)
+print(b)
