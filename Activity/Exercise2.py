@@ -18,14 +18,7 @@ def check_result(avg):
     else:
         return "Fail"
 
-# Step 4: Even/Odd function
-def check_even_odd(num):
-    if num % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
 
-# ---- Execution in sequence ----
 total = calculate_total(m1, m2, m3)
 print("Total marks:", total)
 
@@ -40,6 +33,13 @@ if result == "Pass":
     print("You've passed your exam!")
 else:
     print("You've failed your exam!")
+
+# Step 4: Even/Odd function
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
 
 # Even/Odd check
 num = int(input("Enter a number to check even or odd: "))
